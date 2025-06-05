@@ -1,0 +1,9 @@
+Overall Ideas: 
+
+- Pixel Art Background
+- Slight "cozy" feeling
+- Textbox background a translucent black with a blur
+-? Background parallax based on mouse position
+-? Text could resemble a terminal
+- Toggleable background music
+-? Music could be LoFi
