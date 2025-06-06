@@ -29,7 +29,7 @@
 }
 
 .textbox{
-    border: 1px pink solid ;
+    border: 2px pink solid ;
     fill-opacity:60%;
     backdrop-filter: blur(1.1rem);
     border-radius: 15px;
