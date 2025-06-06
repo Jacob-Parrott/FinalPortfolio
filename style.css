@@ -30,8 +30,10 @@
 
 .textbox{
     border: 1px pink solid ;
-    fill-opacity:75%;
-    backdrop-filter: blur(5px);
+    fill-opacity:60%;
+    backdrop-filter: blur(1.1rem);
     border-radius: 15px;
+    display: block;
+    margin: auto;
+    z-index: -1;
         }
-}
