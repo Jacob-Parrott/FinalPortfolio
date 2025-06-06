@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
     body {
         background-image: url('pixel-galaxy.png');
         background-size: cover;
@@ -12,11 +13,22 @@
         text-align: center;
         text-decoration: underline;
     }
-    a:visited{
-        color:blanchedalmond;
+    a:link{
+        color:whitesmoke;
+        text-decoration: none;
     }
-    h3{
-        text-align: center;
+    a:visited{
+        color:whitesmoke;
+        text-decoration: none;
+    }
+    a:hover{
+        color:whitesmoke;
+        text-decoration: underline;
+    }
+    p{
+        text-align: left;
+        padding: 5px;
+        padding-left: 25px;
     }
     .workbench-font {
   font-family: "Workbench", sans-serif;
@@ -32,8 +44,20 @@
     border: 2px pink solid ;
     background-color: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(1.1rem);
-    border-radius: 15px;
+    border-radius: 10px;
     display: block;
     margin: 20px;
-    height: 30rem;
+    height: 30vw;
+    vertical-align: middle;
+    transform: translate(0%, 20%);
         }
+
+.topbar{
+
+    background-color: black;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 300;
+    font-size: small;
+    border: 0px black solid;
+    border-radius: 25px;
+}
