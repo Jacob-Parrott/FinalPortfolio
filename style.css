@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
     body {
-        background-image: url('voyager-8.jpg');
+        background-image: url('background.png');
         background-size: cover;
-        background-position:center;
+        background-position:top;
         background-repeat: no-repeat;
     }
     h1 {
