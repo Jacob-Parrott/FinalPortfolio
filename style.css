@@ -3,6 +3,8 @@
     body {
         background-image: url('pixel-galaxy.png');
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     h1 {
         color: #cdd6f4;
@@ -64,4 +66,10 @@
     font-size: small;
     border: 0px rgba(0, 0, 0, 0) solid;
     border-radius: 12px;
+}
+
+img.profile{
+    scale: 0.1;
+    border-radius: 25%;
+    margin-left: 50%;
 }
