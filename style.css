@@ -51,3 +51,10 @@ p.time{
     font-size: 18px;
     transform: translate(97vw,-200%);
 }
+
+.debugWindow{
+    position: absolute;
+    background-color: white;
+    width: 256px;
+    height: 256px;
+}
