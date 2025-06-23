@@ -1,3 +1,4 @@
+/* the "wallpaper" of sorts */
 body {
     background-color: #659cc0;
     overflow-y:auto;
@@ -5,6 +6,7 @@ body {
 }
 
 /* Win95 styled font */
+
 @font-face {
     font-family: 'w95font';
     src: url('fonts/w95font.woff') format('woff');
@@ -29,6 +31,8 @@ body {
     padding-left: 4px;
     padding-top: 6px;
 }
+
+/* Start Button and icon styling */
 img.start{
     height:18px;
     transform: translate(0%,5%);
@@ -41,6 +45,7 @@ button.start{
     height:90%
 }
 
+/* Clock styling and positioning */
 p.time{
     font-family: 'w95font';
     font-size: 18px;
