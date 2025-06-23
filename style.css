@@ -1,20 +1,48 @@
 body {
-    background-color: #048484;
+    background-color: #659cc0;
     overflow-y:auto;
     overflow-x:hidden;
 }
+
+/* Win95 styled font */
+@font-face {
+    font-family: 'w95font';
+    src: url('fonts/w95font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'w95font';
+    src: url('fonts/w95font-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 .taskbar{
-    background-color: black;
-    color:white;
+    background-color: rgb(255, 255, 255);
     position:absolute;
     width: 100vw;
+    height: 28px;
     bottom:0;
     left: 0;
-    display:table-footer-group;
     padding-left: 4px;
     padding-top: 6px;
 }
+img.start{
+    height:18px;
+    transform: translate(0%,5%);
+}
+button.start{
+    border: 1px rgb(147, 147, 147) solid;
+    border-radius: 0px;
+    font-family: 'w95font';
+    font-size: 18px;
+    height:90%
+}
 
-#start{
-    height:32px;
+p.time{
+    font-family: 'w95font';
+    font-size: 18px;
+    transform: translate(97vw,-200%);
 }
