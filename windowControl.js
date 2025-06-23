@@ -24,8 +24,24 @@ function dragElement(elmnt) {
     pos2 = pos4 - e.clientY;
     pos3 = e.clientX;
     pos4 = e.clientY;
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    if (elmnt.offsetTop - pos2 <= 353){
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    } else{
+        elmnt.style.top = "353px";
+    }
+    if (elmnt.offsetTop - pos2 >= 0){
+    } else{
+        elmnt.style.top = "0px";
+    }
+    if (elmnt.offsetLeft - pos1 <= 1200){
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    } else{
+        elmnt.style.left = "1200px";
+    }
+    if (elmnt.offsetLeft - pos1 >= 0){
+    } else{
+        elmnt.style.left = "0px";
+    }
   }
 
   function closeDragElement() {
