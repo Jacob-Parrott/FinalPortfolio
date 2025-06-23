@@ -76,7 +76,7 @@ p.time{
   background-color: #ffffff;
 }
 
-button#debug {
-    margin-left: 5px;
-    margin-right: 5px;
+#debugClose {
+    border: 1px black solid;
+    font-family: w95font;
 }

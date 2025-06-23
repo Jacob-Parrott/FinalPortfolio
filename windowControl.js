@@ -42,3 +42,9 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
+
+
+let closebutton = document.getElementById("debugClose");
+closebutton.addEventListener("click", function(){
+  debug.style.display='none';
+});
