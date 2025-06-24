@@ -5,22 +5,6 @@ body {
     overflow-x:hidden;
 }
 
-/* Win95 styled font */
-
-@font-face {
-    font-family: 'w95font';
-    src: url('fonts/w95font.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'w95font';
-    src: url('fonts/w95font-bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
 .taskbar{
     background-color: rgb(255, 255, 255);
     position:absolute;
