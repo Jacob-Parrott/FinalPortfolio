@@ -1,9 +1,9 @@
-dragElement(document.getElementById("debug"));
+dragElement(document.getElementById("aboutMe"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  if (document.getElementById(elmnt.id + "Header")) {
+    document.getElementById(elmnt.id + "Header").onmousedown = dragMouseDown;
   } else {
     elmnt.onmousedown = dragMouseDown;
   }
@@ -30,11 +30,7 @@ function dragElement(elmnt) {
     } else{
         elmnt.style.top = "0px";
     }
-    if (elmnt.offsetLeft - pos1 >= 0){
-        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-    } else{
-        elmnt.style.left = "0px";
-    }
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";  
   }
 
   function closeDragElement() {
@@ -44,7 +40,7 @@ function dragElement(elmnt) {
 }
 
 
-let closebutton = document.getElementById("debugClose");
+let closebutton = document.getElementById("aboutMeButton");
 closebutton.addEventListener("click", function(){
-  debug.style.display='none';
+  aboutMe.style.display='none';
 });

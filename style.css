@@ -56,31 +56,32 @@ p.time{
     right: 1vw;
 }
 
-#debug {
+#aboutMe {
   position: absolute;
-  z-index: 9;
+  z-index: -2;
   background-color: #f1f1f1;
   border: 5px solid #ffffff;
-  text-align: right;
-  cursor: move;
   width: 640px;
   height: 480px;
-  justify-content: center;
+  font-family: w95font;
 }
 
-#debugheader {
-  padding: 5px;
+#aboutMeHeader {
+  padding-top: 5px;
   cursor: move;
-  z-index: 10;
+  z-index: -1;
   background-color: #ffffff;
 }
 
-#debugClose {
+#aboutMeButton {
     border: 1px rgb(147, 147, 147) solid;
     font-family: w95font;
+    position: absolute;
+    right:0;
+    top:0;
 }
 
-#debugsite{
-    width: 635px;
-    height: 435px;
+#aboutMeSite {
+    width:635px;
+    height:455px;
 }
