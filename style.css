@@ -23,8 +23,8 @@ body {
     height: 300px;
     display:none;
     position: absolute;
-    bottom:40px;
-    left:4px;
+    bottom:6vh;
+    left:0.25vw;
 }
 
 /* Start Button and icon styling */
