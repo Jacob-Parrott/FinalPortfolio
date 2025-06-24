@@ -51,7 +51,7 @@ button.start{
 p.time{
     font-family: 'w95font';
     font-size: 18px;
-    width: 36px;
+    width: 40px;
     margin-left: auto;
     margin-right: 0;
     transform: translate(2px,624px);
@@ -77,6 +77,6 @@ p.time{
 }
 
 #debugClose {
-    border: 1px black solid;
+    border: 1px rgb(147, 147, 147) solid;
     font-family: w95font;
 }
