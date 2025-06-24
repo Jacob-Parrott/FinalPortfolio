@@ -1,7 +1,8 @@
 /* the "wallpaper" of sorts */
 body {
     background-color: #659cc0;
-    overflow-y:auto;
+    background-size: cover;
+    overflow-y:hidden;
     overflow-x:hidden;
 }
 
