@@ -82,7 +82,20 @@ p.time{
     top:0;
 }
 
+
 #aboutMeSite {
     width:635px;
     height:455px;
+}
+
+.startMenuSide{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 119, 199, 1) 50%, rgba(83, 127, 237, 1) 100%);
+    color:white;
+    text-align: center;
+    padding: 0px;
+}
+
+.ignore-mouse-events{
+    pointer-events: none;
 }

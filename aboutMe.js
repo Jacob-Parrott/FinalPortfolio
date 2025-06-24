@@ -8,12 +8,12 @@ function dragElement(elmnt) {
     elmnt.onmousedown = dragMouseDown;
   }
 
-  function dragMouseDown(e) {
+function dragMouseDown(e) {
     e = e || window.event;
     e.preventDefault();
     pos3 = e.clientX;
     pos4 = e.clientY;
-    document.onmouseout = closeDragElement;
+    document.onmouseout = closeDragElementOut;
     document.onmouseup = closeDragElement;
     document.onmousemove = elementDrag;
   }
@@ -44,3 +44,8 @@ let closebutton = document.getElementById("aboutMeButton");
 closebutton.addEventListener("click", function(){
   aboutMe.style.display='none';
 });
+
+  function closeDragElementOut(e) {
+    if (e.target != elmnt || elmnt.contains(e.target)) return;
+    closeDragElement();
+  }
