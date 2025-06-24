@@ -16,6 +16,17 @@ body {
     padding-top: 6px;
 }
 
+.startMenu{
+    background-color: rgb(255, 255, 255);
+    border: 2px rgb(147, 147, 147) solid;
+    width: 200px;
+    height: 300px;
+    display:none;
+    position: absolute;
+    bottom:40px;
+    left:4px;
+}
+
 /* Start Button and icon styling */
 img.start{
     height:18px;
@@ -51,10 +62,14 @@ p.time{
   background-color: #f1f1f1;
   border: 5px solid #ffffff;
   text-align: right;
+  cursor: move;
+  width: 640px;
+  height: 480px;
+  justify-content: center;
 }
 
 #debugheader {
-  padding: 2px;
+  padding: 5px;
   cursor: move;
   z-index: 10;
   background-color: #ffffff;
@@ -63,4 +78,9 @@ p.time{
 #debugClose {
     border: 1px rgb(147, 147, 147) solid;
     font-family: w95font;
+}
+
+#debugsite{
+    width: 635px;
+    height: 435px;
 }
