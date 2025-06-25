@@ -47,7 +47,11 @@ closeButton.addEventListener("click", function(){
 
 let aboutMeStartButton = document.getElementById("aboutMeStartButton");
 aboutMeStartButton.addEventListener("click", function(){
-  aboutMe.style.display='block';
+  if (aboutMe.style.display === 'none' || aboutMe.style.display === ''){
+    aboutMe.style.display='block';
+  }  else {
+    aboutMe.style.display='none';
+  };
 });
 
 

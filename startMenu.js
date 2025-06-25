@@ -11,3 +11,5 @@ if (startMenu.style.display === "none"){
     startMenu.style.display = "none"
 }
 });
+
+

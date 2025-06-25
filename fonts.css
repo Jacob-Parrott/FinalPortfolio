@@ -15,21 +15,6 @@
     font-style: normal;
 }
 
-p {
-    font-family: w95font;
-}
-h1 {
-    font-family: w95font;
-}
-h2 {
-    font-family: w95font;
-}
-h3 {
-    font-family: w95font;
-}
-h4 {
-    font-family: w95font;
-}
-h5 {
+p, h1, h2, h3, h4, h5 {
     font-family: w95font;
 }

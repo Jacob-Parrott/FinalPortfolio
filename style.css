@@ -46,15 +46,15 @@ button.start{
 }
 
 /* Clock styling and positioning */
-p.time{
+.time{
     font-family: 'w95font';
-    font-size: 18px;
+    font-size: 20px;
     width: 40px;
     padding: 3px;
     filter: drop-shadow(0px 1px 0px rgb(80, 80, 80));
     position:absolute;
-    bottom: -2vh;
-    right: 0vw;
+    bottom: -2.5vh;
+    right: .5vw;
 }
 
 #aboutMe {
@@ -69,9 +69,10 @@ p.time{
 }
 
 #aboutMeHeader {
-  padding-top: 5px;
+  padding-top: 3px;
   cursor: move;
   z-index: -1;
+  text-align: center;
   background-color: #ffffff;
 }
 
