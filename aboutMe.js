@@ -45,6 +45,11 @@ closeButton.addEventListener("click", function(){
   aboutMe.style.display='none';
 });
 
+let aboutMeStartButton = document.getElementById("aboutMeStartButton");
+aboutMeStartButton.addEventListener("click", function(){
+  aboutMe.style.display='block';
+});
+
 
   function closeDragElementOut(e) {
     if (e.target != elmnt || elmnt.contains(e.target)) return;
