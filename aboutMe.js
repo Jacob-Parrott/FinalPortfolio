@@ -40,10 +40,11 @@ function dragMouseDown(e) {
 }
 
 
-let closebutton = document.getElementById("aboutMeButton");
-closebutton.addEventListener("click", function(){
+let closeButton = document.getElementById("aboutMeCloseButton");
+closeButton.addEventListener("click", function(){
   aboutMe.style.display='none';
 });
+
 
   function closeDragElementOut(e) {
     if (e.target != elmnt || elmnt.contains(e.target)) return;
