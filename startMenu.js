@@ -11,9 +11,3 @@ if (startMenu.style.display === "none"){
     startMenu.style.display = "none"
 }
 });
-
-body.addEventListener("click", function(){
-if (startMenu.style.display === "block"){
-    startMenu.style.display = 'none';
-}
-});
