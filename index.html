@@ -1,29 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="assets/fonts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="assets/fonts.css"
+            type="text/css"
+            charset="utf-8"
+        />
         <script defer src="time.js"></script>
         <script defer src="pages/about me/aboutMe.js"></script>
+        <script defer src="pages/projects/projects.js"></script>
         <script defer src="mousePosDebug.js"></script>
         <script defer src="startMenu.js"></script>
         <title>Jacob's Portfolio</title>
     </head>
     <body>
         <div class="aboutMe" id="aboutMe">
-            <div id="aboutMeHeader"> About Me <button id="aboutMeCloseButton">x</button></div>
-            <iframe id="aboutMeSite" class="ignore-mouse-events" src="pages/about me/aboutMe.html"></iframe>
+            <div id="aboutMeHeader">
+                About Me <button id="aboutMeCloseButton">x</button>
+            </div>
+            <iframe
+                id="aboutMeSite"
+                class="ignore-mouse-events"
+                src="pages/about me/aboutMe.html"
+            ></iframe>
+        </div>
+        <div class="projects" id="projects">
+            <div id="projectsHeader">
+                Projects <button id="projectsCloseButton">x</button>
+            </div>
+            <iframe
+                id="projectsSite"
+                class="ignore-mouse-events"
+                src="pages/projects/projects.html"
+            ></iframe>
         </div>
         <div class="taskbar">
-            <button class="start"><img class="start" src="assets/startButton.png"> Start</button>
+            <button class="start">
+                <img
+                    class="start"
+                    alt="Nextech Catapult Logo"
+                    src="assets/startButton.png"
+                />
+                Start
+            </button>
             <div><p class="time">00:00</p></div>
         </div>
         <div class="startMenu">
             <div class="startMenuSide">
                 <h1 class="startMenuHeader">PortfoliOS</h1>
                 <button id="aboutMeStartButton">About Me</button>
+                <button id="projectsStartButton">Projects</button>
             </div>
         </div>
-        </body>
+    </body>
 </html>
-
