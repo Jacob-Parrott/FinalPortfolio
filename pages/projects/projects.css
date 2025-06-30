@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+a:link,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+#header {
+    text-align: center;
+}
+
+#quizCover {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px white solid;
+}
+#quizProject {
+    width: 45%;
+    border: 5px white solid;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+#quizButton {
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#wfcCover {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px white solid;
+}
+#wfcProject {
+    width: 45%;
+    border: 5px white solid;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    transform: translate(0, -50%);
+    text-align: center;
+}
+
+#wfcButton {
+    margin: auto;
+    margin-bottom: 5px;
+}

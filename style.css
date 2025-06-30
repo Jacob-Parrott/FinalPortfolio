@@ -65,6 +65,7 @@ button.start {
     width: 63.4%;
     height: 75%;
     font-family: w95font;
+    filter: drop-shadow(0 0 0.25rem black);
 }
 
 #aboutMeHeader {
@@ -97,6 +98,7 @@ button.start {
     width: 63.4%;
     height: 75%;
     font-family: w95font;
+    filter: drop-shadow(0 0 0.25rem black);
 }
 
 #projectsHeader {
@@ -160,4 +162,29 @@ button.start {
 
 .ignore-mouse-events {
     pointer-events: none;
+}
+
+.devicon-github-plain {
+    font-size: 42px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    padding: 5px;
+    transform: translate(-105%, 0);
+    background-color: #cacaca;
+    border: 4px #c0c0c0 solid;
+    padding: 0%;
+}
+.devicon-slack-plain {
+    font-size: 42px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    padding: 5px;
+    transform: translate(5%, 0);
+    background-color: #cacaca;
+    border: 4px #c0c0c0 solid;
+    padding: 0;
 }

@@ -42,8 +42,8 @@ function dragElement(elmnt) {
   }
 }
 
-let closeButton = document.getElementById("projectsCloseButton");
-closeButton.addEventListener("click", function () {
+let projectsCloseButton = document.getElementById("projectsCloseButton");
+projectsCloseButton.addEventListener("click", function () {
   projects.style.display = "none";
 });
 
