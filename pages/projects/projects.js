@@ -60,3 +60,4 @@ function closeDragElementOut(e) {
   if (e.target != elmnt || elmnt.contains(e.target)) return;
   closeDragElement();
 }
+
