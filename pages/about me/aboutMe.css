@@ -34,12 +34,14 @@ html {
 #descContent,
 #descTitle {
     text-align: center;
+    font-size: 110%;
 }
 
 #icons {
     position: absolute;
     bottom: 0;
     left: 50%;
+    bottom: 0;
     transform: translate(-50%, 0);
 }
 
@@ -52,7 +54,7 @@ html {
 
 .devicon-java-plain {
     font-size: 144px;
-    position: absolute;
+    position:absolute;
     right: 5px;
     bottom: 5px;
 }
