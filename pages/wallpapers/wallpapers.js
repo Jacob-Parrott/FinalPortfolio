@@ -61,3 +61,17 @@ function closeDragElementOut(e) {
   closeDragElement();
 }
 
+
+
+let wallpaper = document.getElementById("main");
+wallpaper.style.backgroundImage='url(../../assets/wallpapers/solid.jpg)'
+let defaultButton = document.getElementById("defaultButton");
+let blissButton = document.getElementById("blissButton");
+
+defaultButton.addEventListener("click", function(){
+wallpaper.style.background="url(../../assets/wallpapers/solid.jpg)";
+});
+
+blissButton.addEventListener("click", function(){
+wallpaper.style.backgroundImage="url(../../assets/wallpapers/bliss.jpeg)";
+});

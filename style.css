@@ -1,6 +1,5 @@
 /* the "wallpaper" of sorts */
-body {
-    background-image: url(assets/wallpapers/solid.jpg);
+body#main {
     background-size: cover;
     background-position: top;
     overflow-y: hidden;
