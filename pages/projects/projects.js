@@ -51,6 +51,7 @@ let projectsStartButton = document.getElementById("projectsStartButton");
 projectsStartButton.addEventListener("click", function () {
   if (projects.style.display === "none" || projects.style.display === "") {
     projects.style.display = "block";
+    projectsSite.location.href='./projects.html';
   } else {
     projects.style.display = "none";
   }
