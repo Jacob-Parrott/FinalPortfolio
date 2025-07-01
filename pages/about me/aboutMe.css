@@ -43,7 +43,7 @@ html {
 }
 
 #descContent{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #icons {
@@ -52,7 +52,7 @@ html {
     left: 50%;
     bottom: 0;
     width: 100%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 0) scale(95%);
 }
 
 .devicon-archlinux-plain {
