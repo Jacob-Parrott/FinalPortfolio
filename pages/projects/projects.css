@@ -31,6 +31,9 @@ a:hover {
 }
 
 #quizButton {
+    border: 1px rgb(147, 147, 147) solid;
+    border-radius: 0px;
+    font-family: 'w95font';
     margin: auto;
     margin-bottom: 5px;
 }
@@ -51,6 +54,9 @@ a:hover {
 }
 
 #wfcButton {
+    border: 1px rgb(147, 147, 147) solid;
+    border-radius: 0px;
+    font-family: 'w95font';
     margin: auto;
     margin-bottom: 5px;
 }

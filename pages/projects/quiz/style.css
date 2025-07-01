@@ -63,3 +63,10 @@ body {
     border-radius: 8px;
     font-size: 1.2em;
 }
+
+
+#back{
+    border: 1px rgb(147, 147, 147) solid;
+    border-radius: 0px;
+    font-family: 'w95font';
+}
