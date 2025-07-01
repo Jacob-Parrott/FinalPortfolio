@@ -27,7 +27,7 @@ body {
     display: none;
     position: absolute;
     bottom: 6vh;
-    left: 0.5vw;
+    left: 0.75vw;
 }
 
 /* Start Button and icon styling */
@@ -38,7 +38,7 @@ img.start {
 button.start {
     border: 1px rgb(147, 147, 147) solid;
     position: relative;
-    left: 5px;
+    left: 7.5px;
     border-radius: 0px;
     font-family: "w95font";
     font-size: 18px;
