@@ -29,12 +29,16 @@ html {
     right: 2.5%;
 }
 
-#langContent,
-#langTitle,
-#descContent,
-#descTitle {
+#descTitle{
+    text-align: left;
+}
+#langTitle{
+    text-align: right;
+}
+
+#langContent{
     text-align: center;
-    font-size: 110%;
+    font-size: 125%;
 }
 
 #icons {
