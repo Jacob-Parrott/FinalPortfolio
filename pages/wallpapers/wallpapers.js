@@ -64,7 +64,7 @@ function closeDragElementOut(e) {
 
 
 let wallpaper = document.getElementById("main");
-wallpaper.style.backgroundImage='url(../../assets/wallpapers/solid.jpg)'
+wallpaper.style.backgroundImage='url(../../assets/wallpapers/solid.jpg)';
 let defaultButton = document.getElementById("defaultButton");
 let blissButton = document.getElementById("blissButton");
 
