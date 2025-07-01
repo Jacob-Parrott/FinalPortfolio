@@ -1,4 +1,4 @@
-dragElement(document.getElementById("wallpapers"));
+dragElement(document.getElementById("credits"));
 
 function dragElement(elmnt) {
   var pos1 = 0,
@@ -42,17 +42,17 @@ function dragElement(elmnt) {
   }
 }
 
-let wallpapersCloseButton = document.getElementById("wallpapersCloseButton");
-wallpapersCloseButton.addEventListener("click", function () {
-  wallpapers.style.display = "none";
+let creditsCloseButton = document.getElementById("creditsCloseButton");
+creditsCloseButton.addEventListener("click", function () {
+  credits.style.display = "none";
 });
 
-let wallpapersStartButton = document.getElementById("wallpapersStartButton");
-wallpapersStartButton.addEventListener("click", function () {
-  if (wallpapers.style.display === "none" || wallpapers.style.display === "") {
-    wallpapers.style.display = "block";
+let creditsStartButton = document.getElementById("creditsStartButton");
+creditsStartButton.addEventListener("click", function () {
+  if (credits.style.display === "none" || credits.style.display === "") {
+    credits.style.display = "block";
   } else {
-    wallpapers.style.display = "none";
+    credits.style.display = "none";
   }
 });
 
@@ -60,18 +60,3 @@ function closeDragElementOut(e) {
   if (e.target != elmnt || elmnt.contains(e.target)) return;
   closeDragElement();
 }
-
-
-
-let wallpaper = document.getElementById("main");
-wallpaper.style.backgroundImage='url(../../assets/wallpapers/solid.jpg)';
-let defaultButton = document.getElementById("defaultButton");
-let blissButton = document.getElementById("blissButton");
-
-defaultButton.addEventListener("click", function(){
-wallpaper.style.background="url(../../assets/wallpapers/solid.jpg)";
-});
-
-blissButton.addEventListener("click", function(){
-wallpaper.style.backgroundImage="url(../../assets/wallpapers/bliss.jpeg)";
-});

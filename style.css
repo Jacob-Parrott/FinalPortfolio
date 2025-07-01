@@ -1,5 +1,6 @@
 /* the "wallpaper" of sorts */
 body#main {
+    background-image: url(./assets/wallpapers/solid.jpg);
     background-size: cover;
     background-position: top;
     overflow-y: hidden;
@@ -123,7 +124,7 @@ button.start {
     height: 95%;
 }
 
-#wallpapers {
+#credits {
     position: absolute;
     display: none;
     z-index: -2;
@@ -135,7 +136,7 @@ button.start {
     filter: drop-shadow(0 0 0.25rem black);
 }
 
-#wallpapersHeader {
+#creditsHeader {
     padding-top: 3px;
     cursor: move;
     z-index: -1;
@@ -143,7 +144,7 @@ button.start {
     background-color: #ffffff;
 }
 
-#wallpapersCloseButton {
+#creditsCloseButton {
     border: 1px rgb(147, 147, 147) solid;
     font-family: w95font;
     position: absolute;
@@ -151,10 +152,9 @@ button.start {
     top: 0;
 }
 
-#wallpapersSite {
-    width: 100%;
+#creditsSite {
+    width: 99.7%;
     height: 95%;
-    background-color: black;
 }
 
 .startMenuHeader {
@@ -195,7 +195,7 @@ button.start {
     margin-top: 5px;
 }
 
-#wallpapersStartButton {
+#creditsStartButton {
     text-align: center;
     width: 100%;
     height: 20%;

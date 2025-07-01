@@ -11,7 +11,7 @@
         <script defer src="time.js"></script>
         <script defer src="pages/about me/aboutMe.js"></script>
         <script defer src="pages/projects/projects.js"></script>
-        <script defer src="pages/wallpapers/wallpapers.js"></script>
+        <script defer src="pages/credits/credits.js"></script>
         <script defer src="mousePosDebug.js"></script>
         <script defer src="startMenu.js"></script>
         <title>Jacob's Portfolio</title>
@@ -33,18 +33,19 @@
             </div>
             <iframe
                 id="projectsSite"
+                class="ignore-mouse-events"
                 src="pages/projects/projects.html"
             ></iframe>
         </div>
-        <div id="wallpapers">
-            <div id="wallpapersHeader">
-                Wallpapers <button id="wallpapersCloseButton">x</button>
+        <div id="credits">
+            <div id="creditsHeader">
+                Credits <button id="creditsCloseButton">x</button>
             </div>
-            <div  id="wallpapersSite">
-                <div id="default">
-                    <img id="defaultWallpaper" src="url(./assets/wallpapers/solid.jpg)">
-                </div>
-            </div>
+            <iframe
+                id="creditsSite"
+                class="ignore-mouse-events"
+                src="pages/credits/credits.html"
+            ></iframe>
         </div>
         <div class="taskbar">
             <button class="start">
@@ -62,7 +63,7 @@
                 <h1 class="startMenuHeader">PortfoliOS</h1>
                 <button id="aboutMeStartButton">About Me</button>
                 <button id="projectsStartButton">Projects</button>
-                <button id="wallpapersStartButton">Wallpapers</button>
+                <button id="creditsStartButton">Credits</button>
                 <i
                     title="Check out my Github!"
                     onclick="window.location.href='https://github.com/Jacob-Parrott'"
