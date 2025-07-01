@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+
+#header{
+    text-align: center;
+}
