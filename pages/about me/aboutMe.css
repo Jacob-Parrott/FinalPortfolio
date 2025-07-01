@@ -1,6 +1,7 @@
 html {
     background-color: black;
     color: white;
+    font-weight: 300;
 }
 
 #header {
@@ -39,6 +40,10 @@ html {
 #langContent{
     text-align: center;
     font-size: 125%;
+}
+
+#descContent{
+    font-size: 18px;
 }
 
 #icons {
