@@ -11,6 +11,7 @@ html {
 #headshot {
     width: 256px;
     height: 380px;
+    border-radius: 7px;
     position: absolute;
     top: 50%;
     left: 50%;
